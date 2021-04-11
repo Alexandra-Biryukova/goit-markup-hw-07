@@ -1,0 +1,18 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--accent-colour);
+  margin-right: 93px;
+}
+
+.logo_theme_light {
+  color: var(--text-color);
+}
+
+.logo_theme_dark {
+  color: var(--backgraund-color);
+}

@@ -1,0 +1,51 @@
+.principles-section {
+  background-color: var(--backgraund-color);
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
+.principles-section__text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.principles-section__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  width: 270px;
+  color: var(--secondary-text-color);
+}
+
+.principles-section__list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.principles-section__item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.principles-section__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.principles-section__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-backgraund-color);
+}

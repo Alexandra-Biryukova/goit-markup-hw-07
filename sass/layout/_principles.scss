@@ -1,10 +1,10 @@
-.principles-section {
+.principles {
   background-color: var(--backgraund-color);
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
 }
 
-.principles-section__text {
+.principles__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -13,7 +13,7 @@
   color: var(--text-color);
   margin-bottom: 10px;
 }
-.principles-section__description {
+.principles__description {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -23,24 +23,24 @@
   color: var(--secondary-text-color);
 }
 
-.principles-section__list {
+.principles__list {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.principles-section__item {
+.principles__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 4 - 30px);
 }
 
-.principles-section__icon {
+.principles__icon {
   width: 70px;
   height: 70px;
 }
 
-.principles-section__container {
+.principles__container {
   display: flex;
   align-items: center;
   justify-content: center;

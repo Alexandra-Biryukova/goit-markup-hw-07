@@ -1,22 +1,22 @@
-.description-section {
+.description {
   background-color: var(--backgraund-color);
   padding-bottom: var(--section-pb);
 }
 
-.description-section__list {
+.description__list {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.description-section__item {
+.description__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
   position: relative;
 }
 
-.description-section__wrapper {
+.description__wrapper {
   position: absolute;
   background: rgba(47, 48, 58, 0.8);
   width: 100%;
@@ -27,12 +27,12 @@
   justify-content: center;
 }
 
-.description-section__img {
+.description__img {
   width: 370px;
   height: 294px;
 }
 
-.description-section__text {
+.description__text {
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;

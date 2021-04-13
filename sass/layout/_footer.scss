@@ -4,7 +4,7 @@
   padding-bottom: 60px;
 }
 
-.address__map-link {
+.address__link-map {
   color: var(--backgraund-color);
 }
 
@@ -13,7 +13,7 @@
   margin-top: 20px;
 }
 
-.address__link:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -60,7 +60,7 @@
   align-items: baseline;
 }
 
-.footer__nav-container {
+.footer-nav__container {
   margin-right: 70px;
 }
 
